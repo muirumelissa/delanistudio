@@ -5,8 +5,9 @@ body {
     color: blanchedalmond;
 }
 header{
-    background-image:url(images/delanipics.jpg);
-    padding: 150px ;
+    background-image:url(images/delanipics1.jpg);
+    padding: 180px ;
+    background-position: right bottom;
 }
 h3{
     color: black;
