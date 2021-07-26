@@ -1,3 +1,1 @@
-$('design').click(function(){
-    alert('info1');
-});
+$('h5#design_icon').hide();
