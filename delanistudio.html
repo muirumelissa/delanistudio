@@ -5,7 +5,6 @@
           <title>Delani Studio</title>
           <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
           <link href="CSS/styles.css" rel="stylesheet" type="text/css">
-          <link href="JS/script.js" rel="stylesheet" type="text/JS"
       </head>
       <body>
         <header>
@@ -36,23 +35,28 @@
                 The outcome of this is scoping session is the proposal or high-level statement of work.
 
                 Based on the requirements we will them provide a product that is efficient.</ul></h4>
-                
-        <h5>WHAT WE DO</h5>
-        <div id="design_icon"><img src="CSS/images/design_icon.png"></div>
-        <p id="para1">Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.Throughout your project,our designers create and implement visual design and workflows,soclicit user feedback and work with you to make sure what gets built is what is needed.</p></div>
-        <br>
-        <br>
-        <br>
-        <div id ="development"><img src="CSS/images/dev_icon.png">
-        <p>All engineers are fliuent in the latest enterprise,mobile and web development technologies.They collaborate with your team to write and improve codeon a daily basis using proven practices such as test-driven development and pair programming.</p></div>
-        <br>
-        <br>
-        <br>
-        <div id="project management"><img src="CSS/images/product_icon.png">
-        <p>Planning and development is iterative.Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p></div>
         
-        <script>
+        
+        <div id="container">        
+            <h5>WHAT WE DO</h5>
+            <div id="design_icon"><img src="CSS/images/design_icon.png"></div>
+            <p id="para1">Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.Throughout your project,our designers create and implement visual design and workflows,soclicit user feedback and work with you to make sure what gets built is what is needed.</p></div>
+            <br>
+            <br>
+            <br>
+            <div id ="development"><img src="CSS/images/dev_icon.png">
+            <p>All engineers are fliuent in the latest enterprise,mobile and web development technologies.They collaborate with your team to write and improve codeon a daily basis using proven practices such as test-driven development and pair programming.</p></div>
+            <br>
+            <br>
+            <br>
+            <div id="project management"><img src="CSS/images/product_icon.png">
+            <p>Planning and development is iterative.Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p></div>
 
+        </div>
+        <script>
+            $('#design_icon').click(function(){
+                alert('para1');
+            });
         </script>
       </body>
   </html>    
