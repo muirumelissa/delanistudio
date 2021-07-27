@@ -25,4 +25,12 @@ h4{
 h5{
     color:black;
     font-size: larger;
+    text-align: center;
+}
+div{
+    color:black;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    
 }
