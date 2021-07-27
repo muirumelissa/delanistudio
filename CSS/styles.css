@@ -31,3 +31,9 @@ div{
     color:black;
     text-align: center;
 }
+#work1{
+    float:left;
+}
+#work2{
+    float:center;
+}
