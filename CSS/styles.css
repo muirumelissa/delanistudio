@@ -27,9 +27,21 @@ h5{
     font-size: larger;
     text-align: center;
 }
+#portfolio{
+    font-weight: bold;
+}
 div{
     color:black;
     text-align: center;
+}
+#design_icon{
+    float:left;
+}
+#development{
+    margin: 0 auto;
+}
+#product{
+    float: right;
 }
 #work1{
     float:left;
@@ -45,4 +57,13 @@ div{
 }
 #work5{
     float:left;
+}
+#work6{
+    float:center;
+}
+#work7{
+    float:left;
+}
+#work8{
+    float:center;
 }
