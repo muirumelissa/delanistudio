@@ -61,25 +61,36 @@
             <br>
             <br>
             <div>PORTFOLIO</div>
+            <p>
+                <ul>
+                    <li><img src="CSS/images/work1.jpg"></li>
+                    <li><img src="CSS/images/work2.jpg"></li>
+                    <li><img src="CSS/images/work3.jpg"></li>
+                    <li><img src="CSS/images/work4.jpg"></li>
+                    <li><img src="CSS/images/work5.jpg"></li>
+                    <li><img src="CSS/images/work6.jpg"></li>
+                    <li><img src="CSS/images/work7.jpg"></li>
+                    <li><img src="CSS/images/work8.jpg"></li>
+                </ul>
+            </p>
 
         </div>
         <script>
             
             $(document).ready(function(){
                 $('#design_icon').click(function(){
-                    alert('.para1')
-                    $('.para1').hide();
+                    $('.para1').toggle();
                 });
 
                 $('#development').click(function(){
-                    alert('.para2')
-                    $('.para2').hide();
+                    $('.para2').toggle();
                 });
 
                 $('#project management').click(function(){
                     alert('.para3')
                     $('.para3').hide();
                 });
+
             });
         
         </script>
