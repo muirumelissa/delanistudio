@@ -39,23 +39,21 @@
         
         <div id="container">        
             <h5>WHAT WE DO
-            <div id='design_icon'><img src="CSS/images/design_icon.png" id=para1''>
+                <br>
+                <br>
+                <br>
+                <br>
+            <div id='design_icon'><img src="CSS/images/design_icon.png" id='para1'>
                 <br>
                 DESIGN<p class='para1'>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.Throughout your project,our designers create and implement visual design and workflows,soclicit user feedback and work with you to make sure what gets built is what is needed.</p></div>
             <br>
-
             <div id ='development'><img src="CSS/images/dev_icon.png" id='para2'>
                 <br>
                 DEVELOPMENT<p class='para2'>All engineers are fluent in the latest enterprise,mobile and web development technologies.They collaborate with your team to write and improve codeon a daily basis using proven practices such as test-driven development and pair programming.</p></div>
             <br>
-
             <div id='product'><img src="CSS/images/product_icon.png" id='para3'>
                 <br>
                 PRODUCT MANAGEMENT<p class='para3'>Planning and development is iterative.Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p></div>
-            
-            
-            
-            
             <br>
             <br>
             <br>
@@ -65,48 +63,99 @@
             <br>
             <br>
             <div id='work1'><img src="CSS/images/work1.jpg" width="300"></div>
-            <br>
             <div id='work2'><img src="CSS/images/work2.jpg" width="300"></div>
-            <br>
             <div id='work3'><img src="CSS/images/work3.jpg" width="300"></div>
-            <br>
             <div id='work4'><img src="CSS/images/work4.jpg" width="300"></div>
-            <br>
             <div id='work5'><img src="CSS/images/work5.jpg" width="300"></div>
-            <br>
             <div id='work6'><img src="CSS/images/work6.jpg" width="300"></div>
-            <br>
             <div id='work7'><img src="CSS/images/work7.jpg" width="300"></div>
-            <br>
             <div id='work8'><img src="CSS/images/work8.jpg" width="300"></div>
             </h5>
-
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <h6>
-                <input id='name' type='text' value='name'>
-                <input id='email' type='text' value='email'>
-                <input id='your' type='text' value='your message here...'></h6>
+                <input id='name' type='text' placeholder='name'>
+                <input id='email' type='text' placeholder='email'>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <input id='your' type='text' placeholder='your message here...'>
+                <br>
+                <br>
+                <br>
+                <br>
+            </h6>
+                <div id='facebook'><img src="CSS/images/facebook.png"></div>
+                <br>
+                <div id='flickr'><img src="CSS/images/flickr.png"></div>
+                <br>
+                <div id='g_plus'><img src="CSS/images/g_plus.png"></div>
+                <br>
+                <div id='skype'><img src="CSS/images/skype.png"></div>
+                <br>
+                <div id='stumble'><img src="CSS/images/stumble_upon.png"></div>
+                <br>
+                <div id='twitter'><img src="CSS/images/twitter.png"></div>
+                <br>
+                <div id='you_tube'><img src="CSS/images/you_tube.png"></div>
+                <br>
+                <div id='dribble'><img src="CSS/images/dribble.png"></div>
+                <br>
+                <div id='pinterest'><img src="CSS/images/pinterest.png"></div>
+                <br>
+                <div id='behance'><img src="CSS/images/behance.png"></div>
 
+
+                <script>
+                   $(document).ready(function(){
+                      $('#design_icon').click(function(){
+                          $('.para1').hide();
+                        });
+
+                        $('#development').click(function(){
+                            $('.para2').hide();
+                        });
+
+                        $('#product').click(function(){
+                            $('.para3').hide();
+                        });
+                        $('#development').click(function(){
+                            $('.para1').show();
+                        });
+                        $('#product').click(function(){
+                            $('.para2').show();
+                        });
+                        $('#design_icon').click(function(){
+                            $('.para3').show();
+                        });
+                    });
+                    
+    
+                </script>
+        
 
 
         </div>
-        <script>
-            
-            $(document).ready(function(){
-                $('#design_icon').click(function(){
-                    $('.para1').toggle();
-                });
-
-                $('#development').click(function(){
-                    $('.para2').toggle();
-                });
-
-                $('#product').click(function(){
-                    $('.para3').toggle();
-                });
-
-
-            });
-        
-        </script>
+       
       </body>
   </html>    

@@ -2,7 +2,6 @@ body {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: blanchedalmond;
 }
 header{
     background-image:url(images/delanipics1.jpg);
@@ -29,6 +28,7 @@ h5{
 }
 #portfolio{
     font-weight: bold;
+    font-size: x-large;
 }
 div{
     color:black;
@@ -36,53 +36,125 @@ div{
 }
 #design_icon{
     float:left;
-    width:23.33%;
+    width:30%;
+    font-weight: lighter;
+    font-size: small;
 }
 #development{
-    margin: 0 auto;
-    width:23.33%;
+    float:right; 
+    width:30%;
+    font-weight:lighter;
+    font-size:small;
 }
 #product{
-    float:right;
-    width:23.33%;
-    
+    margin: -3% auto;
+    width:30%;
+    font-weight: lighter;
+    font-size: small;
+}
+*{
+    box-sizing: border-box;
+}
+#portfolio{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
 }
 #work1{
-    float:left;
+    float:right;
+    width:12.5%;
+    padding: 2px;
 }
 #work2{
-    float:center;
+    float :right;
+    margin-right: 100px;
+    width:12.5%;
+    padding: 2px;
 }
 #work3{
-    float:right;
+    margin: -1px auto;
+    width:12.5%;
+    padding: 2px;
 }
 #work4{
-    float:right;
+    float:left;
+    width: 12.5%;
+    padding: 2px;
+    margin: 250px;
+    
 }
 #work5{
-    float:left;
+    margin: 0 auto;
+    width: 12.5%;
+    padding: 2px;
 }
 #work6{
-    float:center;
+    float:left;
+    width:12.5%;
+    padding: 2px;
 }
 #work7{
-    float:left;
+    float:right;
+    width: 12.5%;
+    padding: 2px;
 }
 #work8{
     float:center;
+    width: 12.5%;
+    padding: 2px;
 }
 h6{
     background-image: url(images/delanipics.jpg);
-    padding: 200px;
+    padding: 180px;
+    background-position: center;
+    color: transparent;
 }
 #name{
     float: left;
-    font: larger;
+    font-size: x-large;
+    width:30%;
+    color: transparent;
+    
 }
 #email{
     float: right;
-    font-size: larger;
+    font-size:x-large;
+    color: transparent;
+    width:30%
 }
 #your{
-    font-size:xx-large;
+    font-size:x-large;
+    float:left;
+    color: transparent;
+    width:40%
+}
+#facebook{
+    float:inline-start
+}
+#dribble{
+    float:right;
+}
+#skype{
+    float:left;
+
+#pinterest{
+    float:left;
+}
+#flickr{
+    float:inline-end;
+}
+#g_plus{
+    float:right;
+}
+#stumble{
+    float:right;
+}
+#twitter{
+    float: right;
+}
+#you_tube{
+    float: right;
+}
+#behance{
+    float:right;
 }
