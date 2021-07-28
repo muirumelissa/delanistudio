@@ -73,6 +73,16 @@ div{
 }
 h6{
     background-image: url(images/delanipics.jpg);
-    color:blanchedalmond;
+    font-size: larger;
     padding: 200px;
+}
+#name{
+    float:left; 
+    font-size: larger;
+}
+#email{
+    float:right;
+}
+#your{
+    float: center;
 }
