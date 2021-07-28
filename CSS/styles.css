@@ -36,12 +36,16 @@ div{
 }
 #design_icon{
     float:left;
+    width:23.33%;
 }
 #development{
     margin: 0 auto;
+    width:23.33%;
 }
 #product{
-    float: right;
+    float:right;
+    width:23.33%;
+    
 }
 #work1{
     float:left;
@@ -50,10 +54,10 @@ div{
     float:center;
 }
 #work3{
-    float:left;
+    float:right;
 }
 #work4{
-    float:center;
+    float:right;
 }
 #work5{
     float:left;
@@ -66,4 +70,8 @@ div{
 }
 #work8{
     float:center;
+}
+#pic3{
+    background-image: url(images/delanipics.jpg);
+    color:blanchedalmond;
 }
