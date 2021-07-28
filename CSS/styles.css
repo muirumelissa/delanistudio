@@ -76,14 +76,13 @@ h6{
     padding: 200px;
 }
 #name{
-    float:left; 
-    font-size:larger;
-    font-weight: initial;
+    float: left;
+    font: larger;
 }
 #email{
-    float:right;
-    font-size:larger;
+    float: right;
+    font-size: larger;
 }
 #your{
-    font-size:larger;
+    font-size:xx-large;
 }
