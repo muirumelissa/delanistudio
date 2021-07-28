@@ -62,46 +62,55 @@ div{
 }
 #work1{
     float:right;
+    margin-right: auto;
+    margin-left: -50px auto ;
     width:12.5%;
     padding: 2px;
 }
 #work2{
     float :right;
-    margin-right: 150px;
+    margin-right: 290px;
     width:12.5%;
     padding: 2px;
 }
 #work3{
     margin: -1px auto;
+    float:left;
+    margin-right: 150px auto;
     width:12.5%;
     padding: 2px;
 }
 #work4{
     clear:left;
     float:left;
+    margin: -250px auto;
+    margin-left: 330px;
     width: 12.5%;
     padding: 2px;
 }
 #work5{
     float:left;
-    margin-right:0px auto;
+    margin-top:-50px auto;
     width: 12.5%;
     padding: 2px;
 }
 #work6{
     float:left;
-    margin-right: 150px auto;
+    margin-top: 50px auto;
     width:12.5%;
     padding: 2px;
 }
 #work7{
-    float: right;m
+    float: left;
+    margin-top: 50px auto;
     width: 12.5%;
     padding: 2px;
 }
 #work8{
     float:right;
-    margin-bottom: 150px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px auto;
     width: 12.5%;
     padding: 2px;
 }
