@@ -71,7 +71,8 @@ div{
 #work8{
     float:center;
 }
-#pic3{
+h6{
     background-image: url(images/delanipics.jpg);
     color:blanchedalmond;
+    padding: 200px;
 }
