@@ -82,7 +82,9 @@ h6{
 }
 #email{
     float:right;
+    font-size: larger;
 }
 #your{
     float: center;
+    font-size: larger;
 }
