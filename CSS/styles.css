@@ -67,7 +67,7 @@ div{
 }
 #work2{
     float :right;
-    margin-right: 100px;
+    margin-right: 150px;
     width:12.5%;
     padding: 2px;
 }
@@ -77,29 +77,31 @@ div{
     padding: 2px;
 }
 #work4{
+    clear:left;
     float:left;
     width: 12.5%;
     padding: 2px;
-    margin: 250px;
-    
 }
 #work5{
-    margin: 0 auto;
+    float:left;
+    margin-right:0px auto;
     width: 12.5%;
     padding: 2px;
 }
 #work6{
     float:left;
+    margin-right: 150px auto;
     width:12.5%;
     padding: 2px;
 }
 #work7{
-    float:right;
+    float: right;m
     width: 12.5%;
     padding: 2px;
 }
 #work8{
-    float:center;
+    float:right;
+    margin-bottom: 150px auto;
     width: 12.5%;
     padding: 2px;
 }
