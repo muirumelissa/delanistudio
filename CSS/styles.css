@@ -62,20 +62,20 @@ div{
     font-family: sans-serif;
 }
 #work1{
-    float:right;
+    float: right;
+    margin-left: -30px;
     width:12.5%;
     padding: 2px;
 }
 #work2{
     float :right;
-    margin-right: 290px;
+    margin-right: 310px;
     width:12.5%;
     padding: 2px;
 }
 #work3{
     margin: -1px auto;
     float:left;
-    margin-right: 150px auto;
     width:12.5%;
     padding: 2px;
 }
@@ -119,43 +119,60 @@ div{
 }
 h6{
     background-image: url(images/delanipics.jpg);
-    padding: 150px;
+    padding: 180px;
     background-position: center;
-    color: transparent;
+    transform: (-50%,-50%);
+    background-size: cover;
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: bolder;
+    font-family:sans-serif;
+}
+#contact{
+    font-size: large;
+    color: blanchedalmond;
+    margin-top: -120px;
+
 }
 #name{
     float: left;
     font-size: x-large;
-    width:30%;
-    color: transparent;
-    
+    width:45%;
+    color: blanchedalmond;
+    background: none;
 }
 #email{
     float: right;
+    background:none ;
     font-size:x-large;
-    color: transparent;
-    width:30%
+    color: blanchedalmond;
+    width:50%
 }
 #your{
     font-size:x-large;
-    float:left;
-    color: transparent;
-    width:40%
+    background: none;
+    margin: 0px auto;
+    color: blanchedalmond;
+    width:100%;
+    height: 290px;
+}
+::placeholder{
+    color: blanchedalmond;
 }
 #facebook{
-    float:inline-start
+    margin: 0 auto;
 }
 #dribble{
     float:right;
 }
 #skype{
-    float:left;
+    margin: 10px;
 
 #pinterest{
     float:left;
 }
 #flickr{
-    float:inline-end;
+    margin-top: -10px;
 }
 #g_plus{
     float:right;
