@@ -55,15 +55,14 @@ div{
 *{
     box-sizing: border-box;
 }
-#portfolio{
+#portfolio.hover{
+    margin-bottom: 90px auto;
     text-align: center;
     font-size: x-large;
     font-family: sans-serif;
 }
 #work1{
     float:right;
-    margin-right: auto;
-    margin-left: -50px auto ;
     width:12.5%;
     padding: 2px;
 }
@@ -89,34 +88,37 @@ div{
     padding: 2px;
 }
 #work5{
+    margin: 0px auto;
     float:left;
-    margin-top:-50px auto;
+    margin-right: 150px auto;
     width: 12.5%;
     padding: 2px;
+
 }
 #work6{
     float:left;
-    margin-top: 50px auto;
+    clear:left;
+    margin: -250px auto;
+    margin-left: 330px;
     width:12.5%;
     padding: 2px;
 }
 #work7{
-    float: left;
-    margin-top: 50px auto;
+    float: right;
+    margin: 145px ;
+    margin-top: -255px;
     width: 12.5%;
     padding: 2px;
 }
 #work8{
     float:right;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 50px auto;
+    margin-bottom:-10px ;
     width: 12.5%;
     padding: 2px;
 }
 h6{
     background-image: url(images/delanipics.jpg);
-    padding: 180px;
+    padding: 150px;
     background-position: center;
     color: transparent;
 }

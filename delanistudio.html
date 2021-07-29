@@ -58,6 +58,13 @@
             <br>
             <br>
             <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div id='portfolio'>PORTFOLIO</div>
             <br>
             <br>
@@ -128,25 +135,25 @@
 
                 <script>
                    $(document).ready(function(){
-                      $('#design_icon').click(function(){
-                          $('.para1').hide();
+                       $('#design_icon').ready(function(){
+                           $('.para1').hide();
+                       });
+                       $('#development').ready(function(){
+                           $('.para2').hide();
+                       });
+                       $('#product').ready(function(){
+                           $('.para3').hide();
+                       });
+                       $('#design_icon').click(function(){
+                          $('.para1').toggle();
                         });
 
                         $('#development').click(function(){
-                            $('.para2').hide();
+                            $('.para2').toggle();
                         });
 
                         $('#product').click(function(){
-                            $('.para3').hide();
-                        });
-                        $('#development').click(function(){
-                            $('.para1').show();
-                        });
-                        $('#product').click(function(){
-                            $('.para2').show();
-                        });
-                        $('#design_icon').click(function(){
-                            $('.para3').show();
+                            $('.para3').toggle();
                         });
                     });
                     
