@@ -19,5 +19,6 @@ $(document).ready(function(){
      $('#product').click(function(){
          $('.para3').toggle();
      });
+     })
  });
 
